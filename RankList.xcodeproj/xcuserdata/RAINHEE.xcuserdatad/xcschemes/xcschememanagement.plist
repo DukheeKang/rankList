@@ -7,7 +7,25 @@
 		<key>RankList.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>CE7A1FDC2069CA99003548B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE7A1FF02069CA99003548B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CE7A1FFB2069CA99003548B3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
