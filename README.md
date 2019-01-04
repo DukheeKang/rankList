@@ -1,5 +1,5 @@
 # rankList
-Create Basic Table And Image Download(URLSession Use).
+Create Basic Table And Download Image(URLSession Use).
 
 
 #아이튠즈에 등록된 앱 리스트 호출 (https://rss.itunes.apple.com/ko-kr)
