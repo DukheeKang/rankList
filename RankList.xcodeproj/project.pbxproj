@@ -225,7 +225,6 @@
 				CE7A1FDA2069CA99003548B3 /* Frameworks */,
 				CE7A1FDB2069CA99003548B3 /* Resources */,
 				886DCD403F597D045A570725 /* [CP] Embed Pods Frameworks */,
-				BB932BEDC031567ECD8692C3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,8 +243,6 @@
 				CE7A1FED2069CA99003548B3 /* Sources */,
 				CE7A1FEE2069CA99003548B3 /* Frameworks */,
 				CE7A1FEF2069CA99003548B3 /* Resources */,
-				A71F83C32C381B09B9F5ACD1 /* [CP] Embed Pods Frameworks */,
-				F39A527FD5FA3EDC583CC7CA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,8 +262,6 @@
 				CE7A1FF82069CA99003548B3 /* Sources */,
 				CE7A1FF92069CA99003548B3 /* Frameworks */,
 				CE7A1FFA2069CA99003548B3 /* Resources */,
-				04B1E824EAB9C35805F03CE3 /* [CP] Embed Pods Frameworks */,
-				82FA0C92C95EDF9BC4FF395E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -353,21 +348,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		04B1E824EAB9C35805F03CE3 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RankListUITests/Pods-RankListUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		144F4862F5D7644F567D600F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -422,21 +402,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		82FA0C92C95EDF9BC4FF395E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RankListUITests/Pods-RankListUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		886DCD403F597D045A570725 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -457,51 +422,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RankList/Pods-RankList-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A71F83C32C381B09B9F5ACD1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RankListTests/Pods-RankListTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BB932BEDC031567ECD8692C3 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RankList/Pods-RankList-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F39A527FD5FA3EDC583CC7CA /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RankListTests/Pods-RankListTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -689,6 +609,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y3N98F2TK8;
 				INFOPLIST_FILE = RankList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.rainhee.RankList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -705,6 +626,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y3N98F2TK8;
 				INFOPLIST_FILE = RankList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.rainhee.RankList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
